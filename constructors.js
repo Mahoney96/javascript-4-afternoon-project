@@ -57,6 +57,10 @@ function Employee(name, email, hireDate) {
   */
   
   // Code here
+   const Bob = new Employee('')
+
+
+
   
   ////////// PROBLEM 4 //////////
   
@@ -79,20 +83,20 @@ function Employee(name, email, hireDate) {
   
   ////////// PROBLEM 5 //////////
   
-  // Write a constructor function called User. This function should take in 4 parameters called name, age, email, and savedPosts in that order. Name and email will be strings, age will be a number and savedPosts will be an array of objects. These objects will each have 3 properties: id (a number), title (a string), and rating (a number between 1 and 5). These objects are the posts that the user will have saved to their account.
+  // Write a constructor function (constructor function - means to type the function and the variables ) called User. This function should take in 4 parameters called name, age, email, and savedPosts in that order. Name and email will be strings, age will be a number and savedPosts will be an array of objects. These objects will each have 3 properties: id (a number), title (a string), and rating (a number between 1 and 5). These objects are the posts that the user will have saved to their account.
   
   // Once the User constructor function is created, write a prototype method for the User function. Name this method addSavedPost. It should take in three parameters: id (a number), title (a string) and rating (a number). Use these parameters to create a new object and add it to the savedPosts array. Make sure to name the properties the same as described previously (id, title, rating).
   
   // Code here
   
-  ////////// PROBLEM 6 //////////
+  ////////// PROBLEM 6 ////////// use filter for problem 6 & 7 
   
   // You will be using the constructor function you just created in problem 5.
   // Write a prototype method for the User constructor function named removeSavedPost that will take in one number parameter representing the post id. Use this id to find and remove the matching object in the savedPosts array.
   
   // Code here
   
-  ////////// PROBLEM 7 //////////
+  ////////// PROBLEM 7 //////////  use filter for problem 6 & 7 
   
   // You will continue to use the constructor function you created in problem 5.
   // Write a prototype method for the User constructor function named changePostRating that will take in two number parameters. The first will be an id (a number) and the second will be the new rating (a number). Use the id to find the matching object in the savedPosts array. Once you find the matching object, update it's rating score with the new rating parameter.
